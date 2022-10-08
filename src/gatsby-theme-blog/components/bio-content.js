@@ -8,11 +8,11 @@ import { Themed } from "theme-ui"
 export default function Bio() {
   return (
     <>
-      This is where <Themed.a href="http://example.com/">your name</Themed.a>
+      Este blog <Themed.a href="https://diegoroney.github.io/portfolio/">Diego R.</Themed.a>
       {` `}
-      goes.
+      
       <br />
-      Or whatever, you make the rules.
+      Bora programar
     </>
   )
 }
