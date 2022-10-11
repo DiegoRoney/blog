@@ -1,0 +1,11 @@
+.footer a {
+    color: #00ff15;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+
+  .footer{
+    color: red;
+  }

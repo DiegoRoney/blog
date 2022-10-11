@@ -1,6 +1,9 @@
 import '../styles/globals.css'
+import '../styles/Home.module.css'
+import '../styles/styles.css'
 import Head from 'next/head'
 import Nav from '../components/Nav'
+import Footer from '../components/Footer';
 
 
 
@@ -22,7 +25,12 @@ function MyApp({ Component, pageProps }) {
         <main>
           <Component {...pageProps} />
         </main>
+
+        <Footer />
       </div>
+
+      
+      
     </>
   )
 } 

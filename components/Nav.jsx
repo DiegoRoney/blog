@@ -1,15 +1,16 @@
 import Link from 'next/link'
 
 const Nav = () => {
-  return (
-    <nav className="nav p-3 border-bottom">
+  return (    
+    <nav className="nav p-5 border-bottom " >
       <Link href="/" passHref>
-        <h2 className="pointer">Blog do Diego</h2>
+        <h1 className="pointer">Blog Diego</h1>
       </Link>
       <Link href="/bio" passHref>
         <p className="ms-5 pointer lead my-auto">Bio</p>
       </Link>
     </nav>
+
   )
 }
 export default Nav

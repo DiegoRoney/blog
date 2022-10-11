@@ -2,7 +2,7 @@
   padding: 0 2rem;
 }
 
-.main {
+.main {  
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
@@ -13,16 +13,18 @@
 }
 
 .footer {
+  background-color: #0011ff;
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid #ff0000;
   justify-content: center;
   align-items: center;
+  align-content: center;
 }
 
 .footer a {
-  color: #ffffff;
+  color: #fcfcfd;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,12 +34,14 @@
 .title a {
   color: #0070f3;
   text-decoration: none;
+  
 }
 
 .title a:hover,
 .title a:focus,
 .title a:active {
   text-decoration: underline;
+  color: #fcfcfd;
 }
 
 .title {
@@ -75,6 +79,7 @@
 }
 
 .card {
+
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
@@ -126,5 +131,5 @@
   }
   /* .logo img {
     filter: invert(1);
-  } */
+  }  */
 }
