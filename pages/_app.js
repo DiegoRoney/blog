@@ -4,6 +4,7 @@ import '../styles/styles.css'
 import Head from 'next/head'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer';
+import Menu from '../components/menu'
 
 
 
@@ -18,10 +19,11 @@ function MyApp({ Component, pageProps }) {
               integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
               crossOrigin="anonymous" />
       </Head>
+      
       <div className="container">
        
-       <Nav />
-       
+      <Nav />
+       <Menu />
         <main>
           <Component {...pageProps} />
         </main>

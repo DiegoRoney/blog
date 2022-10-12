@@ -55,7 +55,7 @@ export default function Home({ posts }) {
             className=""
             alt="thumbnail"
             width={200}
-            height={170}
+            height={130}
 
         />
     </div>
