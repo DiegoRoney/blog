@@ -30,29 +30,38 @@ export default function Home({ posts }) {
     <div className="mt-5">
       {posts.map((post, index) => (
         <Link href={'/blog/' + post.slug} passHref key={index}>
-          <div className="card mb-3 pointer" style={{ maxWidth: '100%', maxHeight: '220px' }}>
-            <div className="row g-0">
-              <div className="col-md-8">
-                <div className="card-body">
-                  <h5 className="card-title">{post.frontMatter.title}</h5>
-                  <p className="card-text">{post.frontMatter.description}</p>
-                  <p className="card-text">
-                    <small className="text-muted">{post.frontMatter.date}</small>
-                  </p>
-                </div>
-              </div>
-              <div className="col-md-4 m-auto">
-                <Image
-                  src={post.frontMatter.thumbnailUrl}
-                  className="img-fluid mt-1 rounded-start"
-                  alt="thumbnail"
-                  width={500}
-                  height={200}
-                  objectFit="cover"
-                />
-              </div>
-            </div>
-          </div>
+
+<div className="card-blog">
+    {/* 1 */}
+    <div className="card-blog-conteudo">
+        <h5 className="card-blog-title">
+            {post.frontMatter.title}
+        </h5>
+
+        <p className="card-descricao">
+            {post.frontMatter.description}
+        </p>
+
+        <p className="card-data">
+            {post.frontMatter.date}
+        </p>
+
+    </div>
+
+    {/* 2 */}
+    <div className="card-blog-thumbnail">
+        <Image
+            src={post.frontMatter.thumbnailUrl}
+            className=""
+            alt="thumbnail"
+            width={200}
+            height={130}
+
+        />
+    </div>
+
+
+</div>
         </Link>
       ))}
     </div>
