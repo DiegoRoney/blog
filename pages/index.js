@@ -30,7 +30,7 @@ export default function Home({ posts }) {
     <div className="mt-5">
       {posts.map((post, index) => (
         <Link href={'/blog/' + post.slug} passHref key={index}>
-          <div className="card mb-3 pointer" style={{ maxWidth: '540px' }}>
+          <div className="card mb-3 pointer" style={{ maxWidth: '100%', maxHeight: '220px' }}>
             <div className="row g-0">
               <div className="col-md-8">
                 <div className="card-body">
@@ -47,7 +47,7 @@ export default function Home({ posts }) {
                   className="img-fluid mt-1 rounded-start"
                   alt="thumbnail"
                   width={500}
-                  height={400}
+                  height={200}
                   objectFit="cover"
                 />
               </div>

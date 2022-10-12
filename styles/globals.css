@@ -1,5 +1,6 @@
 html,
 body { 
+  
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -9,6 +10,7 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  cursor: pointer;
 }
 
 * {
@@ -25,7 +27,15 @@ a {
   }
 }
 nav{
-  background-color: #ffbb00;
+  padding: 20px;
+  background: rgb(221,162,0);
+background: linear-gradient(90deg, #4e42d4 0%, rgb(214, 0, 203) 44%, rgb(255, 0, 149) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 200px;
   
 }
 
@@ -43,6 +53,7 @@ footer a:hover{
 }
 
 footer{
+  bottom: 0;
   background-color: #000000;
   color: #797979;
   display: flex;
