@@ -1,6 +1,6 @@
 html,
-body { 
-  
+body {   
+  width: 100%;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -45,9 +45,8 @@ nav h1{
 }
 
 main{
-  background-color: #ffffff;
+  background-color: #fcfcfc; 
   
-
 }
 
 
@@ -68,4 +67,59 @@ footer{
   align-content: center;
   
   
+}
+
+.container{
+  background-color: #ffffff;
+  width: 100%;
+}
+
+/*! cards*/
+.card-blog{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 200px;  
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid rgba(82, 82, 82, 0.363);
+  
+}
+/* conteudo */
+.card-blog-conteudo{
+  padding: 5px;
+  width: 80%;
+  background-color: #ffffff;
+}
+
+.card-blog-title{
+  color: #000000;
+}
+.card-descricao{
+color: #080808;
+}
+.card-data{
+  color: #494949;
+}
+/* conteudo */
+
+/* imagem */
+.card-blog-thumbnail{
+  width: 60%;
+  background-color: #ff000000;
+  width: 20%;
+}
+
+
+
+/* imagem */
+
+._app{
+  
+  width: 100%;
+  height: 100vh;
+  background-color: #e4e4e4;
 }

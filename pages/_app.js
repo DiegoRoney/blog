@@ -9,7 +9,7 @@ import Footer from '../components/Footer';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>    
+    <div className='_app'>    
      
     
       <Head>
@@ -31,7 +31,7 @@ function MyApp({ Component, pageProps }) {
 
       
       
-    </>
+    </div>
   )
 } 
 
