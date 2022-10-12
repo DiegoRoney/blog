@@ -28,8 +28,9 @@ a {
 }
 nav{
   padding: 20px;
-  background: rgb(221,162,0);
-background: linear-gradient(90deg, #4e42d4 0%, rgb(214, 0, 203) 44%, rgb(255, 0, 149) 100%);
+  
+background: rgb(221,162,0);
+background: linear-gradient(90deg, #fd8700 0%, rgb(255, 146, 20) 44%, rgb(255, 72, 0) 100%);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -45,6 +46,8 @@ nav h1{
 
 main{
   background-color: #ffffff;
+  
+
 }
 
 
