@@ -3,8 +3,8 @@ import '../styles/Home.module.css'
 import '../styles/styles.css'
 import Head from 'next/head'
 import Nav from '../components/Nav'
-import Footer from '../components/Footer';
-import Menu from '../components/menu'
+import Footer from '../components/Footer'
+// import Menu from '../components/menu'
 
 
 
@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }) {
       <div className="container">
        
       <Nav />
-       <Menu />
+       {/* <Menu /> */}
         <main>
           <Component {...pageProps} />
         </main>
