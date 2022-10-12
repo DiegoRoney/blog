@@ -1,10 +1,12 @@
 import Link from 'next/link'
 
+
 const Menu = () => {
   return (    
     
             
      <div className="nav-links">
+
       <ul>
         
       <Link href="/" passHref>
@@ -19,13 +21,11 @@ const Menu = () => {
         <li> Portfólio</li>  
          
       </Link>     
-      </ul>
-     </div>
-     
+      </ul>     
+
       
-      
-    
-    
+     </div>         
+        
 
   )
 }
