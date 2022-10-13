@@ -3,16 +3,22 @@ import Image from "next/image"
 
 
 const Footer = () =>{
+
+   
     return(
-        <footer className="p-3 d-flex justify-content-center ">
-        <a
+        <footer className="" >          
+          <div className="footer-texto">
+            Desevolvido por:
+          </div>
+
+        <a className="footer-link"
           href="https://diegoroney.github.io/portfolio/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Construido por: {' '}
+          {' '}
           <span className="logo">
-            <Image src="/d-diego.png" alt="Diego Logo" width={100} height={20} />
+            <Image src="/d-diego.png" alt="Diego Logo" width={90} height={15} />
           </span>
         </a>
       </footer>
@@ -20,3 +26,4 @@ const Footer = () =>{
 }
 
 export default Footer
+
