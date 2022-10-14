@@ -46,7 +46,7 @@ export default function Home({ posts }) {
                 {post.frontMatter.date}
               </p>
               <p className="text-muted">
-                tags:
+                tag:
                 {post.frontMatter.tags}
               </p>
             </div>
