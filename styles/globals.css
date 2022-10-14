@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+
+/*
+font-family: 'Dancing Script', cursive;
+*/
+
 html,
 body {
   width: 100%;
@@ -8,10 +15,7 @@ body {
 }
 
 
-svg {
-  width: 30px;
-  color: #985ddc;
-}
+
 
 a {
   color: inherit;
@@ -32,6 +36,7 @@ a {
     color: black;
     background: white;
     height: 100vh;
+    
   }
 }
 
@@ -50,12 +55,19 @@ nav {
 }
 
 nav span {
-  color: #000000;
+  color:  #985ddc;;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
 }
 
-nav h1 {
+nav h1{  
+  font-size: 70px;
+  color: #8131ff;  
+}
+
+nav svg {
+  width: 60px;
   color: #985ddc;
-  font-weight: 700;
 }
 
 .nav-marca {
@@ -99,9 +111,9 @@ nav h1 {
 }
 
 .nav-links li {
-  background-color: rgb(29, 29, 29);
+  background-color: rgb(41, 41, 41);
   padding: 5px;
-  border-radius: 3px;
+  border-radius: 5px;
   width: 90px;
   height: 30px;
   /* border: 1px solid #8f8f8f; */
@@ -111,7 +123,8 @@ nav h1 {
 }
 
 .nav-links li:hover {
-  background-color: #985ddc;
+  background: rgb(202, 107, 245);
+  background: linear-gradient(90deg, rgba(202, 107, 245, 1) 0%, rgba(100, 134, 221, 1) 53%, rgba(0, 179, 214, 1) 100%);
   color: #ffffff;
 }
 
@@ -233,16 +246,18 @@ footer {
   right: 0;
   width: 100%;
   height: 50px;
-  color: #9427c7;
+  color: #ffffff;
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 3px solid #985DDC;
-  background-color: #985DDC;
+  border-top: 3px solid #000000;
   justify-content: center;
   align-items: center;
   align-content: center;
   gap: 20px;
+
+  background: rgb(202, 107, 245);
+  background: linear-gradient(90deg, rgba(202, 107, 245, 1) 0%, rgba(100, 134, 221, 1) 53%, rgba(0, 179, 214, 1) 100%);
 }
 
 .footer-texto {
