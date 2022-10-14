@@ -7,6 +7,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+
 svg {
   width: 30px;
   color: #985ddc;
@@ -192,18 +193,46 @@ main {
   padding: 15px;
 }
 
-/* pagina do post*/
 
+.btn-post {
+  margin-top: 15px;
+  padding-top: 15px;
+  width: 170px;
+  height: auto;
+
+  color: #008006;
+  background-color: #49494900;
+  border: 2px solid #008006;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  border-radius: 5px;
+}
+
+.btn-post:hover {
+  background-color: #008006;
+  color: #ffffff;
+  transform: rotate(-10deg);
+
+}
+
+.btn-post a {
+  text-decoration: none;
+}
+
+/*! pagina do post*/
 
 footer a:hover {
   color: aliceblue;
 }
 
-footer {  
- font-weight: bold;
+footer {
+  font-weight: bold;
   right: 0;
   width: 100%;
-  height: 50px; 
+  height: 50px;
   color: #9427c7;
   display: flex;
   flex: 1;
@@ -213,14 +242,15 @@ footer {
   justify-content: center;
   align-items: center;
   align-content: center;
-  gap: 20px;  
+  gap: 20px;
 }
-.footer-texto{
+
+.footer-texto {
   display: flex;
   align-items: center;
 }
 
-.footer-link{
+.footer-link {
   display: flex;
   align-items: center;
 }
@@ -228,4 +258,3 @@ footer {
 
 
 /*FOOTER*/
-
