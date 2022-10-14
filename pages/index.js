@@ -45,7 +45,10 @@ export default function Home({ posts }) {
               <p className="card-data">
                 {post.frontMatter.date}
               </p>
-
+              <p className="text-muted">
+                tags:
+                {post.frontMatter.tags}
+              </p>
             </div>
 
             {/* 2 */}
