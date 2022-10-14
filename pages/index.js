@@ -31,37 +31,37 @@ export default function Home({ posts }) {
       {posts.map((post, index) => (
         <Link href={'/blog/' + post.slug} passHref key={index}>
 
-<div className="card-blog">
-    {/* 1 */}
-    <div className="card-blog-conteudo">
-        <h5 className="card-blog-title">
-            {post.frontMatter.title}
-        </h5>
+          <div className="card-blog">
+            {/* 1 */}
+            <div className="card-blog-conteudo">
+              <h5 className="card-blog-title">
+                {post.frontMatter.title}
+              </h5>
 
-        <p className="card-descricao">
-            {post.frontMatter.description}
-        </p>
+              <p className="card-descricao">
+                {post.frontMatter.description}
+              </p>
 
-        <p className="card-data">
-            {post.frontMatter.date}
-        </p>
+              <p className="card-data">
+                {post.frontMatter.date}
+              </p>
 
-    </div>
+            </div>
 
-    {/* 2 */}
-    <div className="card-blog-thumbnail">
-        <Image
-            src={post.frontMatter.thumbnailUrl}
-            className=""
-            alt="thumbnail"
-            width={200}
-            height={140}
+            {/* 2 */}
+            <div className="card-blog-thumbnail">
+              <Image
+                src={post.frontMatter.thumbnailUrl}
+                className=""
+                alt="thumbnail"
+                width={200}
+                height={140}
 
-        />
-    </div>
+              />
+            </div>
 
 
-</div>
+          </div>
         </Link>
       ))}
     </div>
