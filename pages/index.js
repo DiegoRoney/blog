@@ -18,11 +18,9 @@ export const getStaticProps = async () => {
     }
   })
 
-  return {
-    props: {
-      posts
-    }
-  }
+  // posts.sort((a, b) => a.position > b.position ? -1 : 1 );
+
+  return {props: {posts}}
 }
 
 export default function Home({ posts }) {
